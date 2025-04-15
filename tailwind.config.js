@@ -10,6 +10,10 @@ module.exports = {
         'tablet': {'max': '776px'},
         'mob': {'max': '480px'}
       },
+      fontFamily: {
+        sans: ['DM Sans', 'sans-serif'],
+        'dm-sans': ['DM Sans', 'sans-serif'],
+      },
       colors: {
         'black-20': 'rgba(0, 0, 0, 0.2)',
         'black-40': 'rgba(0, 0, 0, 0.4)',

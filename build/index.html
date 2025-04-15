@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive Layout using TailwindCSS</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
 </head>
-<body class="bg-custom-gradient flex min-h-screen w-full flex-col flex-wrap bg-cover bg-no-repeat antialiased font-sans tablet:flex-col">
+<body class="bg-custom-gradient flex min-h-screen w-full flex-col flex-wrap bg-cover bg-no-repeat antialiased font-dm-sans tablet:flex-col">
   <div class="flex h-full w-full bg-transparent text-black">
     <div class="lg:fixed z-50 flex lg:h-full lg:left-0 lg:w-24 lg:flex-col lg:my-0 fixed flex-row- w-auto top-0 left-4 right-4 bottom-auto h-16 rounded-[32px] my-4 items-center justify-between p-4 bg-white lg:bg-transparent">
       <div class="bg-white rounded-[32px] w-16 h-16 grid place-content-center gap-2">
@@ -84,7 +86,7 @@
       </div>
     </div>
     <div class="pt-20 ml-0 lg:ml-20 lg:pt-0 flex flex-grow flex-col overflow-auto gap-0">
-      <main class="h-full w-full flex flex-col overflow-hidden">
+      <main class="lg:h-full md:h-fit w-full flex flex-col overflow-hidden">
         <div class="flex justify-between items-center px-4 py-6 gap-[282px]">
           <h1 class="text-[32px] md:text-[28px] lg:text-[32px] leading-10 tracking-[-0.03em] font-bold text-black">
             OTP confirmation
@@ -270,7 +272,7 @@
             <button class="text-[16px] md:text-[14px] lg:text-[16px] leading-5 tracking-[-0.01em] absolute left-5 top-5 cursor-pointer font-medium underline gap-2 flex">
               Close
             </button>
-            <div class="flex h-full w-full flex-col items-center justify-center gap-10 px-20 lg:gap-10 md:gap-6 tablet:grid pb-4 mob:gap-6">
+            <div class="flex h-full w-full flex-col items-center justify-center gap-10 lg:px-20 md:px-12 mob:px-10 lg:gap-10 md:gap-6 tablet:grid pb-4 mob:gap-6 md:pb-0 md:h-[90%] lg:h-full">
               <div class="flex flex-col items-center justify-center gap-2">
                 <span class="relative flex shrink-0 overflow-hidden rounded-full h-[120px] w-[120px] lg:h-[120px] lg:w-[120px] mob:h-12 mob:w-12">
                   <img class="aspect-square h-full w-full" src="./img/sample5.jpeg">

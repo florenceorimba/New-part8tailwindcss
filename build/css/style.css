@@ -695,10 +695,6 @@ video {
   height: 100%;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .max-h-12 {
   max-height: 3rem;
 }
@@ -1224,10 +1220,6 @@ video {
     height: 100%;
   }
 
-  .md\:max-h-full {
-    max-height: 100%;
-  }
-
   .md\:grid-cols-\[320px_1fr\] {
     grid-template-columns: 320px 1fr;
   }
@@ -1467,6 +1459,10 @@ video {
 
   .mob\:overflow-y-auto {
     overflow-y: auto;
+  }
+
+  .mob\:rounded-3xl {
+    border-radius: 1.5rem;
   }
 
   .mob\:p-4 {
